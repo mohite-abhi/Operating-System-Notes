@@ -27,7 +27,7 @@
 	- heavyweight process has one thread
 	- if process has multiple thread
 		- it can perform more than one task at time
-	- ![afad66920115fd30fd37cc559a9a52bb.png](../../../../_resources/f49f5b470cbf49efaabca09914549888.png)
+	- ![afad66920115fd30fd37cc559a9a52bb.png](../_resources/f49f5b470cbf49efaabca09914549888.png)
 
 - benifits
 	- responsiveness
@@ -56,9 +56,9 @@
 
 **concurrency vs parallelism**
 - concurrent execution on single core system
-	- ![39e85369ba931aa56b8e79c2e181257b.png](../../../../_resources/77e51cd3be134749ba3b3701a68f5e56.png)
+	- ![39e85369ba931aa56b8e79c2e181257b.png](../_resources/77e51cd3be134749ba3b3701a68f5e56.png)
 - parallelism on multi core system
-	- ![edf894fad46c6c7bcfbaebbdf3831eb9.png](../../../../_resources/0ffdb5bea60b408aa567f1bd85aa8579.png)
+	- ![edf894fad46c6c7bcfbaebbdf3831eb9.png](../_resources/0ffdb5bea60b408aa567f1bd85aa8579.png)
 
 
 

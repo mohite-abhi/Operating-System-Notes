@@ -24,7 +24,7 @@
 - goal
 	- efficient utilization of memory
 - how program use ram
-	- ![e9863a50c8958751e5d78e4b7661957a.png](../../../../_resources/1224fe48b7f2414cae3f117bed9a0a57.png)
+	- ![e9863a50c8958751e5d78e4b7661957a.png](../_resources/1224fe48b7f2414cae3f117bed9a0a57.png)
 
 
 - analysis of CPU utilization
@@ -79,7 +79,7 @@
 		- problems
 			- external fragmentation
 				- if processes are terminated and leave ram, we get holes, and fixed partitions are created
-				- ![579b9bf59c34108c696dc21cf1422950.png](../../../../_resources/ecbb18a3d6134c2fb71e9e2f338771bf.png)
+				- ![579b9bf59c34108c696dc21cf1422950.png](../_resources/ecbb18a3d6134c2fb71e9e2f338771bf.png)
 				- now, if a process comes then although it collectively has ram, but it is contiguous and can't
 				- solution
 					- compaction : make dynamic partition closer
@@ -122,7 +122,7 @@
 			- so we divide them in secondary memory and call each division a page
 			- and we create frame in memory equal to size of page for ease of fitting	
 		- memory is byte addressale for cpu
-		- ![d89f0da3b132bb440989aeec4931bc48.png](../../../../_resources/535f78865bb0470792d1426e2cd185cd.png)
+		- ![d89f0da3b132bb440989aeec4931bc48.png](../_resources/535f78865bb0470792d1426e2cd185cd.png)
 		- page table
 			- page is stored in secondary memory
 			- frame is stored in ram, during processing
@@ -138,10 +138,10 @@
 					- offset/bit no. (in lsb)
 			- page table maps page no. of LAS to frame no. of PAS for use by cpu
 			- example
-				- ![ab18cd9c05cf93cdf20b06aeb9cef904.png](../../../../_resources/fc3c74049abd402a99a7a9f988071697.png)
+				- ![ab18cd9c05cf93cdf20b06aeb9cef904.png](../_resources/fc3c74049abd402a99a7a9f988071697.png)
 
 		- page table entry
-			- ![11e5f0c8946cfeaaffa4e812d45693e1.png](../../../../_resources/0c806075d83b4460a48f645dada2e9e1.png)
+			- ![11e5f0c8946cfeaaffa4e812d45693e1.png](../_resources/0c806075d83b4460a48f645dada2e9e1.png)
 			- frame no : at what frame is this page stored
 			- valid/invalid : tells if page is at frame locaation or it is swapped out (page fault)
 			- protection : the right to read, write, execute
@@ -156,7 +156,7 @@
 			- now, if p > p2, 
 			- we divide page table into p1 = p/p2 smaller tables store in frames 
 			- we store the address of these p1 frames into an outer page table
-			- ![448c254742175818c5da56e09dc67613.png](../../../../_resources/2b93c4bf8b9645fa9fd48b317dfcf006.png)
+			- ![448c254742175818c5da56e09dc67613.png](../_resources/2b93c4bf8b9645fa9fd48b317dfcf006.png)
 
 
 	- inverted paging
@@ -165,11 +165,11 @@
 			- and each page table is stored in main memory, which is costly sometimes
 		- now here, 
 			- there is only one page table for all the page processes, where we map frame no. to (page no, process id)
-			- ![2628ea7a9a214b0dcd4d437a9ae82657.png](../../../../_resources/41ebc4a9e04e401385f076d563810acf.png)
+			- ![2628ea7a9a214b0dcd4d437a9ae82657.png](../_resources/41ebc4a9e04e401385f076d563810acf.png)
 			- memory is low, but time for search is increased
 
 		-example
-			- ![046c52a677ab78d3ff76ca35a37a1015.png](../../../../_resources/07aba83618164a5bbf1a3c42df500600.png)
+			- ![046c52a677ab78d3ff76ca35a37a1015.png](../_resources/07aba83618164a5bbf1a3c42df500600.png)
 
 
 
@@ -177,14 +177,14 @@
 		- paging divides data/code into equal codes, which might not be semantically complete
 		- so, to keep symantically complete data together, we use segmentation which creates segments of different sizes
 		- here we have segment table, which maps, segment no. to (base address, size)
-			- ![258500901da10a5f5fcd7c9fa27647e2.png](../../../../_resources/79ea8a76a53542e28902cc2d211fad13.png)
+			- ![258500901da10a5f5fcd7c9fa27647e2.png](../_resources/79ea8a76a53542e28902cc2d211fad13.png)
 		- similar to logical address of page table, here also we have segment no, and size/offset which should be less than size of segment table.
 
 	- overlay
 		- we can put a process whose size is greater than main memory into main memory
 		- we move in needed data, and move out unneeded data
 		- it is used in embedded system, and there is no driver which can do this, so we have to do this manually
-		- ![036741ccb8e22f925fcbf33a7539e37c.png](../../../../_resources/f64342a555544600a76207174e4762c8.png)
+		- ![036741ccb8e22f925fcbf33a7539e37c.png](../_resources/f64342a555544600a76207174e4762c8.png)
 
 
 

@@ -33,4 +33,4 @@
 		- but the dependencies b/w the system components could cause system crash due to a driver crash
 	- microkernel
 		- the functionality of system is moved out of traditional kernel into set of servers that communicate through minimal kernel leaving as little in system space and as much possible in user space
-	- ![92a3942794b6346b60820a976cdeb67c.png](../../../../_resources/6d9b84155b564f25bb285fc81e8619ea.png)
+	- ![92a3942794b6346b60820a976cdeb67c.png](../_resources/6d9b84155b564f25bb285fc81e8619ea.png)

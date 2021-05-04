@@ -36,9 +36,9 @@
 - example
 	- producer and comsumer
 		- producer
-			- ![ba7717fa1ea050092b8980751503d348.png](../../../../_resources/f7494927d7cc4f3cb5150ca8e7e3e057.png)
+			- ![ba7717fa1ea050092b8980751503d348.png](../_resources/f7494927d7cc4f3cb5150ca8e7e3e057.png)
 		- consumer
-			- ![58565c3f30b4d2788cb7ef9fdf65066a.png](../../../../_resources/611640664bb84b4ab015dfe3475ef393.png)
+			- ![58565c3f30b4d2788cb7ef9fdf65066a.png](../_resources/611640664bb84b4ab015dfe3475ef393.png)
 
 
 - kinds of buffer

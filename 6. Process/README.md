@@ -12,7 +12,7 @@
 	- state in OS (in kernel)
 		- state contains:
 			- registers, list of open files, related process etc
-	- ![492cb9b19e8404aff01104777dd23f4b.png](../../../../_resources/a7f7d2702a4f46e49290e523e19ec0dd.png)
+	- ![492cb9b19e8404aff01104777dd23f4b.png](../_resources/a7f7d2702a4f46e49290e523e19ec0dd.png)
 
 - access
 	- kernel has
@@ -37,7 +37,7 @@
 		- heap containing dynamic memory allocation
 	- when program(exe) is in disk it is passive, when exe loaded in memory it becomes process is active
 		- diff. process can be created out of a program for diff. users
-	- ![c8726383451d1fd33c32705df5940ae5.png](../../../../_resources/1b8cb0945b3c4e02bf62d848248d3c11.png)
+	- ![c8726383451d1fd33c32705df5940ae5.png](../_resources/1b8cb0945b3c4e02bf62d848248d3c11.png)
 	- this is all in virtually memory space
 
 
@@ -81,7 +81,7 @@
 - suspend waiting/suspend block
 	- waiting for some more event to occur
 	- secondary memory
-- ![Screenshot_2020-08-16_11-43-26.png](../../../../_resources/4f679323960f4880ac98598e064bcc70.png)
+- ![Screenshot_2020-08-16_11-43-26.png](../_resources/4f679323960f4880ac98598e064bcc70.png)
 
 
 
@@ -94,7 +94,7 @@
 
 
 - including suspended
-	![Screenshot_2020-08-16_11-46-55.png](../../../../_resources/f4dc221b7d334d0c902100785ea31b7e.png)
+	![Screenshot_2020-08-16_11-46-55.png](../_resources/f4dc221b7d334d0c902100785ea31b7e.png)
 
 
 **scheduler**

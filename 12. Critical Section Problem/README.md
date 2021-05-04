@@ -62,7 +62,7 @@
 **Solution to critical section problem**
 
 - examples 
-	- ![a454d058787f95a32f57e71b890e77cb.png](../../../../_resources/9c40d8e107f34611933c44827917ccd8.png)
+	- ![a454d058787f95a32f57e71b890e77cb.png](../_resources/9c40d8e107f34611933c44827917ccd8.png)
 		- race condition, left with 3 diff values of B
 	- example 2
 		- p1
@@ -150,8 +150,8 @@
 
 
 	- ------------gate questions ahead---------------
-	- ![723272983a936e4a5730a64c6941635e.png](../../../../_resources/81b1f12d59a043ecbbbe742a5cbb5d99.png)
-	- ![1d914a7c65f40e66b4b08397764427f5.png](../../../../_resources/0a9f3ed1cc864b55b3c442ccd4c22841.png)
+	- ![723272983a936e4a5730a64c6941635e.png](../_resources/81b1f12d59a043ecbbbe742a5cbb5d99.png)
+	- ![1d914a7c65f40e66b4b08397764427f5.png](../_resources/0a9f3ed1cc864b55b3c442ccd4c22841.png)
 
 
 

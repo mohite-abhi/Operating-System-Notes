@@ -62,7 +62,7 @@
 **Access Matrix**
 - matrix of Domain no., vs Objects
 	- here fields tell premissions
-- ![96d67fabf106e0f3f5c9b189b115e94b.png](../../../../_resources/52dbf8215fc04693bd43224634dd7fe3.png)
+- ![96d67fabf106e0f3f5c9b189b115e94b.png](../_resources/52dbf8215fc04693bd43224634dd7fe3.png)
 - similarly we can also use
 	- table
 	- ccapability model

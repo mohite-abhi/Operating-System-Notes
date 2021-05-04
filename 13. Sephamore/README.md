@@ -38,7 +38,7 @@
 
 
 - examples
-	- ![7f4e68e7b69c86a4e6839d9ee4a13bdb.png](../../../../_resources/a680dc60a9d44846bf7deb288e5b553e.png)
+	- ![7f4e68e7b69c86a4e6839d9ee4a13bdb.png](../_resources/a680dc60a9d44846bf7deb288e5b553e.png)
 
 
 
@@ -52,16 +52,16 @@
 - Order of execution
 	- we can do this by having different semaphore for diff. processes
 		- and signaling semaphore of next process after ending a process
-	- ![8effae4540022c7968432fc73ec33b5b.png](../../../../_resources/a5ebd174e513408c8ce975bd89a75e6a.png)
+	- ![8effae4540022c7968432fc73ec33b5b.png](../_resources/a5ebd174e513408c8ce975bd89a75e6a.png)
 
 	- example
-		- ![73747bf8b72820dffb9585d603be55ba.png](../../../../_resources/b39fd5e59cec4d1b8222afcb7d8dd88b.png)
-		- ![4eef6be69f589ef1e97185c20c6de925.png](../../../../_resources/8deb2862319049539896a7127549b1c3.png)
+		- ![73747bf8b72820dffb9585d603be55ba.png](../_resources/b39fd5e59cec4d1b8222afcb7d8dd88b.png)
+		- ![4eef6be69f589ef1e97185c20c6de925.png](../_resources/8deb2862319049539896a7127549b1c3.png)
 
 - Resource management
 	- we can keep the initial value of semaphore to such x
 		- which which restricts access of that resource to atmost x processes at a time
-	- ![e06af35297ab6606b0a8658f87b2fbf1.png](../../../../_resources/cfc07d1e9da44c90a4332a242a1d0232.png) 
+	- ![e06af35297ab6606b0a8658f87b2fbf1.png](../_resources/cfc07d1e9da44c90a4332a242a1d0232.png) 
 
 
 
@@ -108,7 +108,7 @@
 
 
 - solution
-	- ![5a481c99530ca1db1886a1ee306004b7.png](../../../../_resources/4bb61ab5a34747d8bb6d9e7968e08ab4.png)
+	- ![5a481c99530ca1db1886a1ee306004b7.png](../_resources/4bb61ab5a34747d8bb6d9e7968e08ab4.png)
 
 
 

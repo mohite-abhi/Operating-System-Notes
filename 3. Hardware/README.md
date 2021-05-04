@@ -53,7 +53,7 @@
 
 
 
-![von.png](../../../../_resources/4ce83a22b9b84d5e927f8188131aaa48.png)
+![von.png](../_resources/4ce83a22b9b84d5e927f8188131aaa48.png)
 
 
 
@@ -91,7 +91,7 @@ cache :
 
 - clustered systems
 	- like multiprocessor system, but multiple systems working together
-		- ![d7274710b77d265a1f460adee495e623.png](../../../../_resources/d7bebbb1bb444b6783194dfcb90e2af3.png)
+		- ![d7274710b77d265a1f460adee495e623.png](../_resources/d7bebbb1bb444b6783194dfcb90e2af3.png)
 		- network attached storage (NAS)
 			- multiple devices connected to a storage
 			- (RAID(redundant array of i data))

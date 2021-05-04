@@ -20,7 +20,7 @@
 
 
 **Hardware Interrupt**
-- ![1018a24c625a8d21dafd131b57fdb109.png](../../../../_resources/3da59238ddd94f3d82c82823c427d8b5.png)
+- ![1018a24c625a8d21dafd131b57fdb109.png](../_resources/3da59238ddd94f3d82c82823c427d8b5.png)
 - the hardware action from any hardware like clock, printer, usb, heyboard goes to the interrupt controller(hardware controller which decides the priority to take which hw first )
 - the this connects that hw to the INT pin in the proceessor .. then the interrupt handler routines run like
 	- time interrupt handler routine
@@ -38,7 +38,7 @@
 	- from where interrupt handler ruitine  is fetched
 	- the interrupt handler routine runs 
 	- the interrupt return (ir) is called which changes the thing to user mode, resume stopped program
-- ![c2ab21b2d87937cfad093b5324d71933.png](../../../../_resources/60d1a1eb8b624b2f8cfee376bc672cd7.png)
+- ![c2ab21b2d87937cfad093b5324d71933.png](../_resources/60d1a1eb8b624b2f8cfee376bc672cd7.png)
 
 
 **Software Interrupt**
@@ -60,4 +60,4 @@
 
 - once the system call is made system call no. is used to access system call handler which then handles the interrupt and gives out IRET to resumes the program
 
-- ![e9ac6da6b5bb3a9c0a9c4fe541888111.png](../../../../_resources/8e5cfdbf2a0444c98fc5a110e842e9d3.png)
+- ![e9ac6da6b5bb3a9c0a9c4fe541888111.png](../_resources/8e5cfdbf2a0444c98fc5a110e842e9d3.png)

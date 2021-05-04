@@ -62,10 +62,10 @@
 			- resource accessed
 
 - example
-	- ![fa4757c4046ba8bdf4e8dfe92e7f5131.png](../../../../_resources/e8b095fed1ea4967af4190a8bf40f6fe.png)
+	- ![fa4757c4046ba8bdf4e8dfe92e7f5131.png](../_resources/e8b095fed1ea4967af4190a8bf40f6fe.png)
 		- if single instance RAG has cycle, it's a deadlock
-	- ![e44c30cbf877b83931903c6d01a47ecd.png](../../../../_resources/a4a32f24298345ad83e9aaf9ec74c34a.png)
-	- ![f1e076a72a3ccf6c27a682f1b320d8d1.png](../../../../_resources/a2aebdf25de24643a55332381b627e03.png)
+	- ![e44c30cbf877b83931903c6d01a47ecd.png](../_resources/a4a32f24298345ad83e9aaf9ec74c34a.png)
+	- ![f1e076a72a3ccf6c27a682f1b320d8d1.png](../_resources/a2aebdf25de24643a55332381b627e03.png)
 
 
 
@@ -93,13 +93,13 @@
 - deadlock avoidance 
 	- RAG method (single instance)
 		- here dotted line means that may request that resource in future
-		- ![44d80c3a2b7de74db7e93e45f2113730.png](../../../../_resources/a75a808db2a443dcac9afb3a86c3e61c.png)
+		- ![44d80c3a2b7de74db7e93e45f2113730.png](../_resources/a75a808db2a443dcac9afb3a86c3e61c.png)
 		- so if there is any kind of loop forming then deadlock will arise, so we won't allow those certain requests
 	- bankers algo
 		- checking if requesting a resource is safe or not
 		- algo given by djikstra
 		- done by making a table
-		- ![301958f4c566353694f5eb4cc3897682.png](../../../../_resources/ca04bfdfdcfb42d8a86fbf32a61bd04d.png)
+		- ![301958f4c566353694f5eb4cc3897682.png](../_resources/ca04bfdfdcfb42d8a86fbf32a61bd04d.png)
 - deadlock detection and recovery
 	- if deadlock detected, recovery includes
 		- kill processes and keep checking if deadlock still exists

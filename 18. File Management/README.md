@@ -76,7 +76,7 @@
 
 - contiguous allocation
 	- directory
-		- ![e3c74cc5919e764533729de2c8b348c0.png](../../../../_resources/ba680af884a94820a0caa4be75491d0b.png)
+		- ![e3c74cc5919e764533729de2c8b348c0.png](../_resources/ba680af884a94820a0caa4be75491d0b.png)
 	- advantage
 		- easy to implant
 		- excellent read performance
@@ -97,7 +97,7 @@
 		- implementation
 			- we will have pointer of next block with the block
 			- and the last will have next pointer as -1
-			- ![41b80593a4e7c9f16c16e3ec04c4f32f.png](../../../../_resources/1cc30ebdaf5a47f3b30978cc47e9491a.png)
+			- ![41b80593a4e7c9f16c16e3ec04c4f32f.png](../_resources/1cc30ebdaf5a47f3b30978cc47e9491a.png)
 		- advantage
 			- no external fragmentation
 			- file size can increase
@@ -108,7 +108,7 @@
 
 	- indexed allocation
 		- implementation
-			- ![ccd6cce9e96f759fecaf435afe9e93b0.png](../../../../_resources/0d1bfd7b7af04dfcac772401cd22e9f6.png)
+			- ![ccd6cce9e96f759fecaf435afe9e93b0.png](../_resources/0d1bfd7b7af04dfcac772401cd22e9f6.png)
 		- advantage
 			- support direct access
 			- no external fragmentation
