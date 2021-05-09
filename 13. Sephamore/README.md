@@ -1,4 +1,4 @@
-13. Sephomore
+# 13. Sephomore
 
 - meaning
 	- an integger variable that apart from initialization, is accessed only through two standard atomic operations(wait & signal)

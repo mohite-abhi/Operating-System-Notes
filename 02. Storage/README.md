@@ -1,4 +1,4 @@
-2. Storage
+# 2. Storage
 
 - main memory (dram - dynamic)
 	- only large storage that cpu can access

@@ -1,4 +1,4 @@
-8. CPU scheduling
+# 8. CPU scheduling
 
 **time/durations**
 

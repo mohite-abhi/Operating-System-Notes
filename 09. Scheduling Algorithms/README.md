@@ -1,4 +1,4 @@
-9. Scheduling algorithms
+# 9. Scheduling algorithms
 
 - main points
 	- algo (FCFS, SJF, SRJF, Priority, RR)

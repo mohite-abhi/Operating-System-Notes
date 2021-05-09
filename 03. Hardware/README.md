@@ -1,4 +1,4 @@
-3. hardware
+# 3. hardware
 
 - Register:
 	- not a part of main memory

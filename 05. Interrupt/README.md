@@ -1,4 +1,4 @@
-5. Intrerrupt
+# 5. Intrerrupt
 
 - os is event driven
 	- executes only when there is interrupt

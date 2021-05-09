@@ -1,4 +1,4 @@
-14. Deadlock
+# 14. Deadlock
 
 - main points
 	- coffmanCondition(mutExc, hldWt, noPrm, cirWt)

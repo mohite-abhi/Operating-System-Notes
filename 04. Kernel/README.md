@@ -1,4 +1,4 @@
-4. kernel
+# 4. kernel
 
 - kernek
 	- internal services provided by kernel

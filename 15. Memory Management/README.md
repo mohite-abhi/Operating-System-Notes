@@ -1,4 +1,4 @@
-15. Memory management
+# 15. Memory management
 
 - main points
 	- goal 

@@ -1,4 +1,4 @@
-12. Critical SectionProblem
+# 12. Critical SectionProblem
 
 - definition
 	- part of program where shared resources are accessed by variour cooperative processes
