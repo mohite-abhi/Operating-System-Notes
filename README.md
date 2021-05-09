@@ -1,5 +1,8 @@
 # Operating-System-Notes
-Notes of Operation System Course, prepared for semester exam of B.Tech
+Notes of Operation System Course, prepared for semester exam of B.Tech.
+```
+Note : pull requests are most wellcome.
+```
 
 **Source of Learning :**
 - Dr. Suraj Sharma https://www.youtube.com/watch?v=YvWYoa57MBQ&list=PLouQm2URN206sv146l0SurzkhHc2hbUcJ
