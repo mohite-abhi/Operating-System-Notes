@@ -22,5 +22,5 @@ Note : pull requests are most wellcome.
         - ![import.png](./_resources/Screenshot_2021-05-08_21-01-04.png)
 
 - with Github
-    - just fort and edit
+    - just fork and edit
 
