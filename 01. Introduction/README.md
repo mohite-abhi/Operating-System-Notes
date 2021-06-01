@@ -43,13 +43,13 @@
 		- only one memory
 	- Batch os 
 		- batches of jobs are formed having similar needs like same languages so that the time for loading and unloading compiler can be saved
-		- the cpu wil do a job and date required organised as a batch and batch after batch jobs are done as fifo
+		- the cpu wil do a job and data required organised as a batch and batch after batch jobs are done as fifo
 		- but disadvantage is that still no i/p o/p interaction
 		- only one memory
 	- Spooling
 		- we add a secondary memory(disk) with main memory
-		- now the cpu deals main memor which takes the data from the disk, which aquires it from the i/o devices
-		- still during the i/p it stops processes
+		- now the cpu deals main memory which takes the data from the disk, which aquires it from the i/o devices
+		- i/p is there but during the i/p processes stops
 
 	- Multiprogramming os 
 		- keeps multiple process in the pool
@@ -59,7 +59,7 @@
 		- difficulty in scheduling, who to pick up and why
 		- main memory management is required for the given processes
 		- there is memory fragmentation
-			- paging is used (non-contiguous meloc)
+			- paging is used (non-contiguous/continuous meloc)
 
 	- Multitasking os 
 		- when multiprocess do not cause wait, but still they are left and passed on to another process after a certain time
