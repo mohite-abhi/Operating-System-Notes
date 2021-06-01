@@ -4,7 +4,7 @@
 - Definition
 	- it is system software
 	- acts as intermediatory b/w hardware and user
-	- user request not hw but os so os ask hw and then return result to os
+	- user request not hw but os so os ask hw and then return result to user
 	- removes direct access to low level
 
 - Goals
