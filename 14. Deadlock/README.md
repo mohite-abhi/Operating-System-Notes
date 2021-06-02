@@ -33,7 +33,7 @@
 	- ability to detect deadlock
 	- after detected it can be resolved by
 		- all processes in deadlock are terminated
-			- not a good approack
+			- not a good approach
 		- resources can be preempted from some processes and given to others till deadlock resolved
 - deadlock prevention
 	- preventing deadlock by checking each transaction before it executes to stop if it can lead to deadlock
@@ -97,7 +97,7 @@
 		- so if there is any kind of loop forming then deadlock will arise, so we won't allow those certain requests
 	- bankers algo
 		- checking if requesting a resource is safe or not
-		- algo given by djikstra
+		- given by djikstra
 		- done by making a table
 		- ![301958f4c566353694f5eb4cc3897682.png](../_resources/ca04bfdfdcfb42d8a86fbf32a61bd04d.png)
 - deadlock detection and recovery

@@ -144,7 +144,7 @@
 - size of disk represented by one inode
 	- one block contains pointers
 		- size of block / size of block address = 128 B / 8 B = 16 no of pointers in a data block which single indirect points to
-	- (8 + 16 + 16*16 + 16*16*16) * 128 B = 547 KB
+	- (8 + 16 + 16 * 16 + 16 * 16 * 16) * 128 B = 547 KB
 
 
 

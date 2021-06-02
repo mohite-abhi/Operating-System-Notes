@@ -29,15 +29,15 @@
 
 - analysis of CPU utilization
 	- we can have more processes in ram, by increasing its size
-	- probability of a process using i/o, k
-	- if we have 4 of those processes in cpu, i/o is k<sup>4</sup>
+	- probability of a process using i/o = k
+	- if we have 4 of those processes in cpu, probability is is k<sup>4</sup>
 	- now, cpu utilization is 1 - k<sup>4</sup>
 	- eg. 
 		- k = 0.7
 			- 1 process
 				- cpu utilization = 1 - 0.7 = 30%
-			- 2 processes
-				- cpu utilization = 1 - 0.7*0.7 = 76%
+			- 4 processes
+				- cpu utilization = 1 - 0.7<sup>4</sup> = 76%
 
 
 
@@ -86,7 +86,7 @@
 						- it is like cutting those data and pasting to make compact, undesirable, processes would need to be stopped
 			- allocation & deallocation
 				- it becomes complex because holes are created dynamically
-				- we use bitmat and linked list for implementing this, to know where hole is and to manage it
+				- we use bitmap and linked list for implementing this, to know where hole is and to manage it
 
 
 
@@ -102,7 +102,7 @@
 			- advan/dis
 				- same as first fit
 		- best fit
-			- search intire memory for hole that is best fitting, least internal fragmentation
+			- search intiree memory for hole that is best fitting, least internal fragmentation
 			- advantage	
 				- less internal fragmentation
 			- disadvanatge
@@ -119,7 +119,7 @@
 		- introduction
 			- here process data can be divided and put at non contiguous places
 			- if we divide them dynamically as holes are created dynamically, it will be costly
-			- so we divide them in secondary memory and call each division a page
+			- so we divide them to same size in secondary memory and call each division a page
 			- and we create frame in memory equal to size of page for ease of fitting	
 		- memory is byte addressale for cpu
 		- ![d89f0da3b132bb440989aeec4931bc48.png](../_resources/535f78865bb0470792d1426e2cd185cd.png)

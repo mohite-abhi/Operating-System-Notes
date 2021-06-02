@@ -56,7 +56,7 @@
 	- time to search and find the frame no. = x
 	- emat = 2x
 - now in TLB we use a cache to store page no. vs frame no. rows which are accessed frequently
-	- so no, if TLB hit/ miss (found in tld) = tlb
+	- so now, if TLB hit (found in tld) = tlb
 	- if TLB miss, still have to search page table = x
 	- and finally frame no. search time = x
 	- so here, 
