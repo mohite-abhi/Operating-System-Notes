@@ -93,7 +93,7 @@
 			- mutual exclusion is satisfied becaue 
 				- if one goes in critical section, and we preempt it, then also another process can not go to critical section
 			- progress is not fullfilled because
-				- if p1 came out of critical section, and p2 say preempted, then we p2 can not go to c.s. even if it is free
+				- if p1 came out of critical section, and p2 say preempted, then we p1 can not go to c.s. even if it is free
 			- bounded waiting
 				- again, if p1 came and p2 preempted after going in critical section, p1 has to wait infinitely
 	- example 3
